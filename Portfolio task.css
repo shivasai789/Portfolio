@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+section,
+footer {
+    overflow-x: hidden;
+}
+
+.navbar-icon {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4b6cc1;
+    font-weight: bold;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+.bannerBgImg {
+    background-image: url("https://res.cloudinary.com/dsovyumur/image/upload/v1686881390/bannerimg_aradvk.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.portfolio-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.portfolio-heading-span {
+    color: #4b6cc1;
+    font-weight: bold;
+}
+
+.portfolio-description {
+    color: #9aa5b1;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.bannerTitle {
+    font-size: 4rem;
+}
+
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+
+.BIcon {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.img-fluid:hover {
+    border: 2px solid #4b6cc1;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
+
+.nav-click:hover {
+    color: #4b6cc1;
+}
+
+.about-heading {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about-desc {
+    font-size: 18px;
+}
+
+.li-head {
+    font-weight: bold;
+}
+
+.name-high {
+    font-weight: bold;
+    color: #4b6cc1;
+}
+
+
+.skill-container {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.skill-container:hover {
+    border: 2px solid #4b6cc1;
+}
+
+.skills-bg-container {
+    background-color: white;
+}
+
+.facts-skills-heading {
+    color: #cced00;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skill-img {
+    width: 88px;
+    height: 88px;
+}
+
+.skill-name {
+    color: black;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projects-section-container {
+    background-color: white;
+}
+
+.project-container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.project-img {
+    width: 100%;
+}
+
+.Portfolio-heading {
+    color: #cced00;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.heading-project {
+    color: #4b6cc1;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.web-design-text {
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.project-name {
+    color: black;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.project-description {
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.Static-img {
+    border-radius: 10px;
+}
+
+.link-section-text {
+    color: #4b6cc1;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.arrow-section {
+    color: #4b6cc1;
+    font-size: 10px;
+}
+
+.project-container:hover {
+    border: 2px solid #4b6cc1;
+}
+
+
+.services-heading {
+    font-family: Roboto;
+    font-size: 28px;
+    color: #4b6cc1;
+    font-weight: bold;
+}
+
+.services-section-container {
+    background-color: white;
+}
+
+.what-i-do-heading {
+    font-family: Roboto;
+    font-size: 35px;
+    color: #4b6cc1;
+    font-weight: bold;
+}
+
+.service-container {
+    background-color: white;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.service-img {
+    width: 20%;
+}
+
+.service-name {
+    font-family: Roboto;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+
+.service-description {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #9aa5b1;
+}
+
+.service-container:hover {
+    border: 2px solid #4b6cc1;
+}
+
+.work-done-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+
+}
+
+.work-done-img {
+    color: white;
+}
+
+.line {
+    background-color: white;
+    width: 60%;
+}
+
+.work-num {
+    color: white;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.work-name {
+    color: white;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.iframe-map {
+    width: 100%;
+}
+
+.about-heading1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-container {
+    background-color: #0d2436;
+}
+
+.footer-img {
+    width: 20vh;
+    border-radius: 1000px;
+}
+
+.footer-img:hover {
+    border: 2px solid #4b6cc1;
+}
+
+.footer-heading {
+    font-family: Roboto;
+    font-size: 28px;
+    color: #4b6cc1;
+    font-weight: bold;
+}
+
+.footer-des {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #9aa5b1;
+}
+
+.logo {
+    width: 25px;
+    color: #5a7184;
+}
+
+.logo1 {
+    font-size: 22px;
+    color: #5a7184;
+}
+
+.copyright-container {
+    background-color: #001c32;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:810px) {
+    footer {
+        position: static;
+    }
+
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #4b6cc1;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #4b6cc1;
+    text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #4b6cc1;
+}
+
+.footer-links a:hover {
+    color: #4b6cc1;
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
